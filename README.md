@@ -11,6 +11,10 @@ This dataset can be used to assist the Visual Security System in detecting and c
 
 VGG16, resnet, and Inception v3 are used as base networks to construct classifiers and evaluate their classification performance (accuracy) and inference performance (consumption of computer resources).
 
+Improvement: for image pre-processing and data enhancement, more methods can be considered, such as random cropping, adjusting brightness or contrast, etc.
+For the results of the classification model, the visualisation of the confusion matrix can be used to see more intuitively the classification effect of the model, the
+One can try to fine-tune the model by unfreezing some convolutional layers for retraining, which may give better results.
+
 
 # Image-Classification
 VGG/ResNet/GoogLeNet
@@ -24,3 +28,8 @@ https://www.kaggle.com/datasets/bahadoreizadkhah/face-mask-types-dataset
 该数据集能够辅助“视觉安防系统”对行人进行口罩佩戴的侦测和分类。
 
 分别使用VGG16、resnet、Inception v3作为基网络，构建分类器，评估其分类性能（准确度）推理性能（对计算机资源的消耗）。
+
+改进：对于图像的预处理和数据增强，可以考虑用更多的方法，比如随机剪裁、调整亮度或对比度等
+对于分类模型的结果，可以通过可视化混淆矩阵来更直观地看出模型的分类效果，
+可以尝试对模型进行微调，解冻一些卷积层进行再训练，可能会得到更好的结果。
+
